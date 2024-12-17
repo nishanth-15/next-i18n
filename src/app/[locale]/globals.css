@@ -19,3 +19,11 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+h1 {
+  @apply text-3xl font-semibold;
+}
+
+a {
+  @apply text-blue-500 underline hover:text-cyan-500;
+}
