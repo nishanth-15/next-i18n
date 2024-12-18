@@ -1,11 +1,10 @@
 import { Config } from "next-i18n-router/dist/types";
 
 const i18nConfig: Config = {
-  locales: ["en", "fr", "it", "es"],
+  locales: ["en", "kn", "fr", "it"],
   defaultLocale: "en",
 };
 // for english - /about
-// for spanish - /es/about
 // for french - /fr/about
 // for italian - /it/about
 
